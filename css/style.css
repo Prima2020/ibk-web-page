@@ -1,0 +1,223 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&family=Mochiy+Pop+One&family=Poppins:wght@100;300;500&display=swap');
+/* Universal styling start*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #101010;
+    font-size: 16px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    line-height: normal;
+    background-color: #EBF2FA;
+}
+ul {
+    list-style: none;
+}
+/* Universal styling ending*/
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+#navbar {
+    height: 80px;
+    margin-bottom: 100px;
+}
+#navbar .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#navbar ul {
+    display: flex;
+    margin: 0 250px;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: #101010;
+    font-weight: 500;
+    padding: 10px 16px;
+    font-weight: bold;
+}
+#navbar .download {
+    background-color: #427AA1;
+    border-radius: 4px;
+    color: #fff;   
+}
+/* NAVBAR styling end*/
+
+header {
+    height: 747px;
+}
+
+header .container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+header .headertext {
+    height: 96px;
+    width: 513px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    line-height: 2;
+}
+
+.headertext h2 {
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    color: #427AA1;
+}
+.headertext p {
+    margin-bottom: 20px;
+    width: 470px;
+    font-family: 'Josefin Sans', sans-serif;;
+}
+
+.headertext button {
+    background-color: #427AA1;
+    border-radius: 4px;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+}
+
+.headerimg {
+    height: 500px;
+    position: relative;
+    box-sizing: border-box;
+}
+.headerimg .bad {
+    position: absolute;
+    top: 37%;
+    left: -26%;
+    padding: 10px;
+    color: #000;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.bad p {
+    font-size: 14px;
+}
+.bad img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.bad .dbad {
+    display: flex;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+.headerimg .cirle1 {
+    height: 577px;
+    width: 577px;
+    border-radius: 50%;
+    border: 1px dashed #064789;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerimg .cirle2 {
+    height: 477px;
+    width: 477px;
+    border-radius: 50%;
+    border: 1px dashed #064789;
+    flex-shrink: 0;
+}
+
+.headerimg .img1{
+    position: absolute;
+    left: 12%;
+    top: 0%;
+    height: 600px;
+}
+
+.headerimg .img2 {
+    position: absolute;
+    top: -15%;
+    left: 34%;
+    z-index: 1;
+    height: 720px;
+}
+.headerimg .img3 {
+    position: absolute;
+    top: 31%;
+    right: -6%;
+    z-index: 2;
+}
+
+#house h1{
+    color: #427AA1;
+    font-family: Josefin Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    margin: 30px;
+}
+
+#house .container {
+    display: flex;
+    padding: 20px;
+    align-content: center;
+    justify-content: center;
+}
+#house .boxes {
+    margin-right: 20px;
+}
+.boxes {
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    border-radius: 7.5px;
+    background: #EBF2FA;
+    box-shadow: 8.437037467956543px 11.249382972717285px 30.935802459716797px 0px rgba(0, 0, 0, 0.11);
+}
+ .boxes h3{
+    color: rgba(16, 16, 16, 0.69);
+    font-family: Josefin Sans;
+    font-size: 18.749px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+ }
+
+ #main h1 {
+    color: var(--pry-moble, #427AA1);
+    font-family: Rubik;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+    text-align: center;
+    padding: 20px;
+ }
+
+ #main .container {
+    display: flex;
+    flex-direction: column;
+    
+ }
+
+ #main .maincontent {
+    display: flex;
+    justify-content: space-between;
+ }
