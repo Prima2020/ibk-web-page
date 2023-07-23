@@ -199,7 +199,9 @@ header .headertext {
     font-weight: 700;
     line-height: normal;
  }
-
+ .boxes h3 i{
+    margin-right: 10px;
+ }
  #main h1 {
     color: var(--pry-moble, #427AA1);
     font-family: Rubik;
