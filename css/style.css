@@ -1,6 +1,10 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&family=Mochiy+Pop+One&family=Poppins:wght@100;300;500&display=swap');
-/* Universal styling start*/
+  
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;500&display=swap');
+
+  /* Universal styling start*/
+
 * {
     padding: 0;
     margin: 0;
@@ -216,10 +220,31 @@ header .headertext {
  #main .container {
     display: flex;
     flex-direction: column;
-    
  }
 
  #main .maincontent {
     display: flex;
     justify-content: space-between;
+    align-items: center;
  }
+.maincontent .maintext {
+    width: 50%;
+    padding: 50px;
+    line-height: normal;
+}
+.maintext h2 {
+    color: var(--pry-moble, #427AA1);
+    font-size: 40px;
+    font-style: italic;
+    line-height: normal;
+    text-transform: capitalize;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 100;
+}
+.maintext p{
+    font-size: 15px;
+}
+.maincontent .mainimg {
+    padding: 40px;
+    margin-left: 100px;
+}
